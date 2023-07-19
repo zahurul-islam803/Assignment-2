@@ -180,14 +180,14 @@ nav {
   margin-top: 48px;
   justify-items: center;
 }
-.radius{
+.radius {
   border-radius: 16px;
   border: 0;
 }
-.item-container{
+.item-container {
   position: relative;
 }
-.overlay-icon{
+.overlay-icon {
   position: absolute;
   top: 0;
   width: 100%;
@@ -203,19 +203,19 @@ nav {
   -ms-transition: opacity 0.5s;
   -o-transition: opacity 0.5s;
 }
-.item-container:hover .overlay-icon{
+.item-container:hover .overlay-icon {
   border-radius: 16px;
   border: 2px solid #ff42a5;
   cursor: pointer;
   opacity: 1;
 }
-.fa-regular{
+.fa-regular {
   color: white;
-  font-size: 1.50rem;
+  font-size: 1.5rem;
 }
-.play-title p{
+.play-title p {
   color: #ff42a5;
-  font-size: 1.50rem;
+  font-size: 1.5rem;
 }
 /* online game design ends here  */
 
@@ -344,7 +344,7 @@ footer {
   margin-top: 74px;
   cursor: pointer;
 }
-.footer-icon  .fa-brands{
+.footer-icon .fa-brands {
   color: white;
 }
 .footer-terms {
