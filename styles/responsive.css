@@ -44,6 +44,37 @@
     grid-template-columns: repeat(2, 1fr);
   }
   /* online game design ends here  */
+
+  /* instant game design starts here */
+.instant-container {
+    flex-direction: column;
+    gap: 74px;
+  }
+  .instant-text {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .instant-img {
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  .image {
+    width: 440px;
+    height: 400px;
+  }
+  .badge-img {
+    top: 240px;
+    right: 470px;
+    position: absolute;
+  }
+  .badge-img img {
+    width: 170px;
+    height: 200px;
+  }
+  /* instant game design ends here */
 }
 
 /* Responsive For Large Mobile Device */
@@ -78,4 +109,35 @@
     grid-template-columns: repeat(1, 1fr);
   }
   /* online game design ends here  */
+
+  /* instant game design starts here */
+  .instant-container {
+    flex-direction: column;
+    gap: 74px;
+  }
+  .instant-text {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .instant-img {
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+  .image {
+    width: 360px;
+    height: 320px;
+  }
+  .badge-img {
+    top: 190px;
+    right: 220px;
+    position: absolute;
+  }
+  .badge-img img {
+    width: 150px;
+    height: 170px;
+  }
+  /* instant game design ends here */
 }
