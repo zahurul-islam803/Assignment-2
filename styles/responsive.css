@@ -46,7 +46,7 @@
   /* online game design ends here  */
 
   /* instant game design starts here */
-.instant-container {
+  .instant-container {
     flex-direction: column;
     gap: 74px;
   }
@@ -75,6 +75,15 @@
     height: 200px;
   }
   /* instant game design ends here */
+
+   /* games category design starts here */
+  .games-category-1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .games-category-2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* games category design ends here */
 }
 
 /* Responsive For Large Mobile Device */
@@ -140,4 +149,33 @@
     height: 170px;
   }
   /* instant game design ends here */
+
+  /* games category design starts here */
+  .games-category-1 {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 15px;
+    margin: 15px auto;
+  }
+  .games-category-2 {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+    row-gap: 15px;
+    margin: 0 auto;
+  }
+  .category-items {
+    width: 200px;
+    height: 30px;
+  }
+  .category-name {
+    font-size: 0.5rem;
+  }
+  .category-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  /* games category design ends here */
 }

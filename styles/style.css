@@ -223,21 +223,21 @@ nav {
 
 /* games category design starts here */
 .games-category-container {
-  margin-top: 150px;
+  max-width: 1400px;
+  margin: 150px auto 20px;
 }
 .games-category-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 27px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin: 0 auto;
 }
 .games-category-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 33px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
   margin-top: 37px;
-  margin-bottom: 50px;
+  margin: 10px auto;
 }
 .category-name {
   color: #0b0223;
@@ -250,7 +250,7 @@ nav {
   gap: 10px;
   border-radius: 50px;
   background: #fff;
-  width: 270px;
+  width: 240px;
   height: 70px;
 }
 .category-items:hover {
