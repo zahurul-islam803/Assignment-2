@@ -1,0 +1,28 @@
+/* Responsive For Tablet Device */
+@media screen and (max-width: 991px) {
+  .nav-menu {
+  font-size: 0.75rem;
+  width: 60%;
+}
+.logo-container {
+  width: 40%;
+}
+.logo-container p {
+  font-size: 2rem;
+}
+.logo-container img {
+  width: 80px;
+  height: 35px;
+  margin-right: 15px;
+}
+}
+
+/* Responsive For Large Mobile Device */
+@media screen and (max-width: 767px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+}
