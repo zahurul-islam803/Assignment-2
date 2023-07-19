@@ -1,28 +1,81 @@
 /* Responsive For Tablet Device */
 @media screen and (max-width: 991px) {
+  /* nav design starts here */
   .nav-menu {
-  font-size: 0.75rem;
-  width: 60%;
-}
-.logo-container {
-  width: 40%;
-}
-.logo-container p {
-  font-size: 2rem;
-}
-.logo-container img {
-  width: 80px;
-  height: 35px;
-  margin-right: 15px;
-}
+    font-size: 0.75rem;
+    width: 60%;
+  }
+  .logo-container {
+    width: 40%;
+  }
+  .logo-container p {
+    font-size: 2rem;
+  }
+  .logo-container img {
+    width: 80px;
+    height: 35px;
+    margin-right: 15px;
+  }
+  /* nav design ends here */
+  /* banner design starts here */
+  .banner-text-bg {
+    width: 350px;
+    height: 400px;
+  }
+  .banner-img img {
+    width: 380px;
+    height: 400px;
+  }
+  .banner-heading {
+    font-size: 2rem;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 11px 20px;
+    border-radius: 28px;
+  }
+  /* banner design ends here */
+
+  /* online game design starts here */
+  .online-game-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* online game design ends here  */
 }
 
 /* Responsive For Large Mobile Device */
 @media screen and (max-width: 767px) {
+  /* navbar design starts here */
   .nav-container {
     flex-direction: column;
   }
   .nav-menu {
     flex-direction: column;
   }
+  /* navbar design ends here */
+
+  /* banner design starts here */
+  .banner-container {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .banner-text-bg {
+    width: 400px;
+    height: 340px;
+  }
+  .banner-img img {
+    width: 400px;
+    height: 240px;
+  }
+  /* banner design ends here */
+
+  /* online game design starts here */
+  .online-game-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* online game design ends here  */
 }

@@ -8,6 +8,15 @@ body {
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
 }
+.btn {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 21px 40px;
+  border-radius: 48px;
+  border: 0;
+}
 /* navbar design starts here */
 nav {
   background: #fff;
@@ -57,7 +66,9 @@ nav {
   color: #f00044;
 }
 .nav-menu .fa-tiktok {
-  color: #000000;
+  background-image: linear-gradient(to right, #08fff9, #992548, #000000);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 .menu-icon {
   border-radius: 8px;
@@ -68,3 +79,108 @@ nav {
   text-align: center;
 }
 /* navbar design ends here */
+
+/* banner design starts here */
+.banner-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 1400px;
+  background-color: #fff;
+}
+.banner-text-bg {
+  background-image: url("../images/Group 14.png");
+  width: 901px;
+  height: 540px;
+}
+.banner-heading {
+  color: #0b0223;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  text-transform: uppercase;
+  font-size: 5.75rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+.banner-img {
+  margin-right: 0;
+}
+.banner-img img {
+  width: 600px;
+  height: 540px;
+}
+.banner-icon {
+  color: #534c64;
+  text-transform: lowercase;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  margin: 20px 0;
+}
+.icon-color {
+  color: #ff42a5;
+}
+.sign-in {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+}
+.go-rogue {
+  background: #4ec5f7;
+  margin-left: 15px;
+}
+/* banner design ends here */
+
+/* online game design starts here */
+.online-game-section{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.online-game-text-container {
+  text-align: center;
+}
+.game-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.funny-style {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.game-desc {
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.item-desc {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 30px;
+}
+.online-game-items {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 48px;
+  justify-items: center;
+}
+.item-img:hover {
+  border-radius: 16px;
+  
+}
+/* online game design ends here  */
