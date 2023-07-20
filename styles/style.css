@@ -303,8 +303,8 @@ footer {
 .footer-container {
   max-width: 1400px;
   height: 630px;
-  margin: 130px auto;
-  border: 1px solid tomato;
+  margin: 130px auto 0;
+  padding: 60px 30px 0;
 }
 .footer-logo {
   display: flex;
@@ -322,8 +322,8 @@ footer {
   color: white;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(6, 150px);
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -338,8 +338,8 @@ footer {
 }
 .footer-icon {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(6, 150px);
+  justify-content: center;
   font-size: 1.5rem;
   margin-top: 74px;
   cursor: pointer;
@@ -349,8 +349,8 @@ footer {
 }
 .footer-terms {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center;
+  grid-template-columns: repeat(4, 200px);
+  justify-content: center;
   list-style: none;
   margin-top: 74px;
   font-size: 1rem;
